@@ -1,0 +1,51 @@
+body {
+    background-color: #000136;
+    color: white;
+}
+
+.page {
+    min-height: 700px;
+    padding: 50px;
+    border-bottom: 70px solid #000136;
+}
+
+h1 { font-size: 50px; }
+h2 { font-size: 30px; text-decoration: underline; }
+h3 { font-size: 24px; text-decoration: underline;}
+p { font-size: 20px; }
+hr { border: none; border-top: 8px solid #444; }
+
+.titre-projet {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.projet, .competences {
+    display: flex;
+    gap: 50px;
+}
+
+.infos, .categorie, .objectifs {
+    padding: 30px;
+}
+
+.infos { width: 55%; }
+.categorie { width: 50%; }
+
+.image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton {
+    background-color: #3ecbff;
+    color: white;
+    padding: 15px;
+    border-radius: 5px ;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
